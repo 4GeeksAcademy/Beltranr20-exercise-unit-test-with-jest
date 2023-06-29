@@ -3,9 +3,15 @@ const fromEuroToDollar = function(valueInEuro){
     return valueInDollar;
 }
 
-const fromDollarToYen = function(valueInYen){
-    let valueInDollar = valueInYen / 127.9;
+const fromDollarToYen = function(valueInDollar){
+    let valueInYen = valueInDollar / 127.9;
     return valueInYen;
+}
+
+//FIX BOTH YEN AND POUND FUNCTIONS *************
+const fromYenToPound = function(valueInYen){
+    let valueInPound = valueInYen / 127.9;
+    return valueInPound;
 }
 
 //app.js file content
