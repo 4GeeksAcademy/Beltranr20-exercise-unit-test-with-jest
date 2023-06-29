@@ -3,6 +3,10 @@ const fromEuroToDollar = function(valueInEuro){
     return valueInDollar;
 }
 
+const fromDollarToYen = function(valueInYen){
+    let valueInDollar = valueInYen / 127.9;
+    return valueInYen;
+}
 
 //app.js file content
 console.log("Hello World")
